@@ -7,8 +7,8 @@ var db = require('./models');
 //   firstName: 'Reno',
 //   lastName: 'McKenie',
 //   age: 26
-// }).then(function(data) {
-//   console.log(data);
+// }).then(function(user) {
+//   console.log(user);
 // });
 
 
@@ -47,8 +47,8 @@ var db = require('./models');
 // --------- //
 // db.user.destroy({
 //   where: { firstName: 'Reno'}
-// }).then(function() {
-//   console.log('Deleted')
+// }).then(function(deletedCount) {
+//   console.log('Deleted', deletedCount)
 // });
 
 
@@ -85,8 +85,8 @@ var db = require('./models');
 //   lastName: 'McKenie',
 //   age: 26,
 //   email: 'renohacks.com'
-// }).then(function(data) {
-//   console.log(data);
+// }).then(function(user) {
+//   console.log(user);
 // });
 
 // db.user.create({
@@ -94,6 +94,6 @@ var db = require('./models');
 //   lastName: 'McKenie',
 //   age: 26,
 //   email: 'darkenvy@protonmail.com'
-// }).then(function(data) {
-//   console.log(data);
+// }).then(function(user) {
+//   console.log(user);
 // });
